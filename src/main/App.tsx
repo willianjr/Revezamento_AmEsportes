@@ -3,7 +3,7 @@ import { Container, GlobalStyle } from '../common/assets/styles/global'
 import Themes from '../common/assets/styles/themes'
 import { Equipe } from '../common/components'
 
-function App() {
+function App(): JSX.Element {
   return (
     <>
       <ThemeProvider theme={Themes.defaultTheme}>
