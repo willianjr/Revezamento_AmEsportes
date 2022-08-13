@@ -3,11 +3,13 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended",
+  "extends": [
+    "plugin:react/recommended",
     "standard",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "plugin:prettier/recommended"],
+    "plugin:prettier/recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,13 +18,11 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react",
-    "@typescript-eslint",
-    "eslint-plugin-import-helpers",
-    "prettier"],
+  "plugins": ["react", "@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
-    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }]
+    "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+    "react/react-in-jsx-scope": "off"
   }
 }
