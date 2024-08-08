@@ -9,7 +9,7 @@ function App(): JSX.Element {
       <ThemeProvider theme={Themes.defaultTheme}>
         <GlobalStyle />
         <Container>
-          <Equipe color={'#FAFAFA'} name={'Branco'} />
+          <Equipe color={'#FF0000'} name={'Vermelho'} />
           <Equipe color={'#FFFF00'} name={'Amarelo'} />
           <Equipe color={'#111'} name={'Preto'} />
         </Container>

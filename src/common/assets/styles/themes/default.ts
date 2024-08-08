@@ -17,9 +17,9 @@ const defaultTheme: themeProps = {
       background: '#FFFF00',
       color: '#000',
     },
-    Branco: {
-      background: '#FAFAFA',
-      color: '#000',
+    Vermelho: {
+      background: '#FF0000',
+      color: '#FFF',
     },
     Preto: {
       background: '#222',

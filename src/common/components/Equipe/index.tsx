@@ -5,8 +5,8 @@ import { RiAddCircleFill, RiEyeLine, RiEyeOffFill } from 'react-icons/ri'
 import { BotaoContador, BotaoPrivacidade, Contador, Container, ContainerBotao, TituloEquipe } from './styles'
 
 interface IEquipeProps {
-  color: '#FFFF00' | '#FAFAFA' | '#111'
-  name: 'Amarelo' | 'Branco' | 'Preto'
+  color: '#FFFF00' | '#FF0000' | '#111'
+  name: 'Amarelo' | 'Vermelho' | 'Preto'
 }
 
 export const Equipe: React.FC<IEquipeProps> = ({ color, name }) => {

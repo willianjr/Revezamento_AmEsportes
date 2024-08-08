@@ -13,7 +13,7 @@ interface colors {
     background: string
     color: string
   }
-  Branco: {
+  Vermelho: {
     background: string
     color: string
   }
