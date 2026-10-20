@@ -45,7 +45,8 @@ export const ContainerBotao = styled.div`
 `
 export const BotaoContador = styled.button<ContainerProps>`
   display: flex;
-  padding: 0.25rem;
+  padding: 1.25rem;
+  height: 20%;
   border: none;
   flex: 1;
   border-radius: 0.25rem;
