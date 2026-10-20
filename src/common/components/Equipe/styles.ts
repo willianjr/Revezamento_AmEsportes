@@ -44,12 +44,13 @@ export const ContainerBotao = styled.div`
   width: 100%;
 `
 export const BotaoContador = styled.button<ContainerProps>`
+  box-shadow: #000 2px;
+  opacity: 0.9;
   display: flex;
-  padding: 1.25rem;
-  height: 20%;
+  padding: 7.25rem;
   border: none;
   flex: 1;
-  border-radius: 0.25rem;
+  border-radius: 1.25rem;
   margin: 0.25rem;
   align-items: center;
   justify-content: center;

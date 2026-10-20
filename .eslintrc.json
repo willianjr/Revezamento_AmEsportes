@@ -18,6 +18,11 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": ["react", "@typescript-eslint", "eslint-plugin-import-helpers", "prettier"],
   "rules": {
     "no-use-before-define": "off",
